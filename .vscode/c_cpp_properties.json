@@ -3,7 +3,12 @@
     {
       "name": "CMake",
       "compileCommands": "${config:cmake.buildDirectory}/compile_commands.json",
-      "configurationProvider": "ms-vscode.cmake-tools"
+      "configurationProvider": "ms-vscode.cmake-tools",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/third_party/userver"
+    ],
+      "cppStandard": "c++20"
     }
   ],
   "version": 4
