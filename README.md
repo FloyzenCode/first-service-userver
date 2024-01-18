@@ -1,4 +1,6 @@
 [![Build](https://github.com/FloyzenCode/first-service-userver/actions/workflows/ci.yml/badge.svg)](https://github.com/FloyzenCode/first-service-userver/actions/workflows/ci.yml)
+[![Docker build](https://github.com/FloyzenCode/first-service-userver/actions/workflows/docker.yaml/badge.svg)](https://github.com/FloyzenCode/first-service-userver/actions/workflows/docker.yaml)
+
 
 # MRE service using async framework userver
 
